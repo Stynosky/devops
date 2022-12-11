@@ -19,4 +19,3 @@ jobs:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: ./main.bicep
-                  failOnStdErr: false
